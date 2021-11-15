@@ -1,0 +1,13 @@
+.footer {
+  margin: 500px 0 40px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 10px;
+}
+
+.footer span {
+  color: purple;
+  text-decoration: underline;
+}
