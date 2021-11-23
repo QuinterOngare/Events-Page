@@ -10,7 +10,7 @@ export default function EventItem(props) {
           src={
             props.eventData.image
               ? props.eventData.image
-              : "/images/Sample/event1.jpg"
+              : "/images/event-default.png"
           }
           width={170}
           height={100}
@@ -20,9 +20,8 @@ export default function EventItem(props) {
       <div className={styles.info}>
         <span>
           {props.eventData.date} at {props.eventData.time}{" "}
-          
         </span>
-        
+
         {/* to make time to be besides date */}
         <h3>{props.eventData.name}</h3>
       </div>
