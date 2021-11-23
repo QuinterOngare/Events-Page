@@ -18,8 +18,19 @@ export default function EventItem(props) {
         {/*  <h1>{props.eventData.performers} </h1> */}
       </div>
       <div className={styles.info}>
-        <span>{props.eventData.date}</span>
+        <span>
+          {props.eventData.date} at {props.eventData.time}{" "}
+          
+        </span>
+        
+        {/* to make time to be besides date */}
         <h3>{props.eventData.name}</h3>
+      </div>
+      <div className={styles.link}>
+        <Link href={`/events/${props.eventData.slug}`}>
+          <a>Details </a>
+          {/* <a target="-blank">Details</a> it takes you to new tab */}
+        </Link>
       </div>
     </div>
   );
