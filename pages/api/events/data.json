@@ -10,7 +10,7 @@
             "date":"November 15, 2021",
             "time": "9.00 pm GMT+3",
             "description": "featuring dances, party anthems and nostalgic songs from the best years of music",
-            "image":"dummy image"
+            "image":"/images/Sample/event1.jpg"
 
         },
         {
@@ -25,8 +25,21 @@
                     "date":"November 20, 2021",
                     "time": "9.00 pm GMT+3",
                     "description": "featuring classicals, viollins and party songs from the early 2000s",
-                    "image":"dummy image"
-        }
-
+                    "image":"/images/Sample/event2.jpg"
+        },
+        {
+            
+                
+            "id": 3,
+            "name": "Music Festival Experience",
+            "slug": "music-festival-experience",
+            "venue": "Lakehub",
+            "address": "2200, 23rd Avenue, Kisumu",
+            "performers": "Dj Bellah",
+            "date":"November 28, 2021",
+            "time": "9.00 pm GMT+3",
+            "description": "featuring classicals, trumpets and party songs from the early 2000s",
+            "image":"/images/Sample/event3.jpg"
+}
     ]
 }

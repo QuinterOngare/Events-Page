@@ -1,12 +1,16 @@
 import Head from "next/head";
+//package comes with the next.js thats why it doesn't have .
 import { useRouter } from "next/router";
 import Header from "./Header";
 import Footer from "./Footer";
 import ShowCase from "./ShowCase";
 import styles from "../styles/Layout.module.css";
+import next from "next";
 
 export default function Layout({ title, keyword, description, children }) {
+  // can be imported using anyname(export default)
   const router = useRouter();
+  //  routers function is to read your path
   return (
     <div>
       <Head>
