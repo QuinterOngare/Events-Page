@@ -21,6 +21,7 @@ export default function Layout({ title, keyword, description, children }) {
       <Header />
       {router.pathname === "/" && <ShowCase />}
       <div className={styles.container}>{children}</div>
+      {/* children is special name given to us by next js so anything btwn Components  elements and layout are children */}
       <Footer />
     </div>
   );

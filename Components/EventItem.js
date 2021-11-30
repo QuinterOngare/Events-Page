@@ -24,6 +24,7 @@ export default function EventItem(props) {
 
         {/* to make time to be besides date */}
         <h3>{props.eventData.name}</h3>
+        {/* is gotten from index file the main file line 13/14 */}
       </div>
       <div className={styles.link}>
         <Link href={`/events/${props.eventData.slug}`}>
